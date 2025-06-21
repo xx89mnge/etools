@@ -1,0 +1,4 @@
+# SSH (Port 22)
+hydra -l root -P /usr/share/wordlists/rockyou.txt ssh://<ip>
+ssh <user>@<ip>
+nmap -p22 --script=ssh2-enum-algos,ssh-hostkey <ip>

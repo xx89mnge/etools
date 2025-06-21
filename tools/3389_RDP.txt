@@ -1,0 +1,4 @@
+# RDP (Port 3389)
+ncrack -vv --user administrator -P rockyou.txt rdp://<ip>
+xfreerdp /u:administrator /p:password /v:<ip>
+nmap -p3389 --script=rdp-enum-encryption <ip>

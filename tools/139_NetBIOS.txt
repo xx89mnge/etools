@@ -1,0 +1,4 @@
+# NetBIOS (Port 139)
+nmap -p139 --script nbstat.nse <ip>
+smbclient -L //<ip> -N
+enum4linux -a <ip>

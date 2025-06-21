@@ -1,0 +1,4 @@
+# DNS (Port 53)
+dig axfr @<ip> <target-domain>
+dnsenum <target-domain>
+nmap -p53 --script=dns-zone-transfer,dns-recursion <ip>

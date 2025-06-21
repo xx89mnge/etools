@@ -1,0 +1,4 @@
+# SMB (Port 445)
+smbmap -H <ip>
+smbclient //ip/share -U user
+nmap --script=smb-enum-shares.nse,smb-enum-users.nse -p445 <ip>

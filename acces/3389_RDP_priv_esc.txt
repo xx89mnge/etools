@@ -1,0 +1,6 @@
+# RDP (Port 3389)
+open PowerShell
+run winPEAS
+check task scheduler/services
+whoami /priv
+powershell -ep bypass -f winPEAS.ps1

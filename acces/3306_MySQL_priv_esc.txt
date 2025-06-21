@@ -1,0 +1,7 @@
+# MySQL (Port 3306)
+check ~/.mysql_history
+use SELECT INTO OUTFILE
+look for reuse of creds
+sudo -l
+find / -perm -4000 2>/dev/null
+./linpeas.sh

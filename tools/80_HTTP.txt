@@ -1,0 +1,5 @@
+# HTTP (Port 80)
+gobuster dir -u http://<ip> -w /usr/share/wordlists/dirb/common.txt
+nikto -h http://<ip>
+curl -I http://<ip>
+nmap -p80 --script=http-enum,http-title <ip>
