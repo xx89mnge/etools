@@ -1,41 +1,48 @@
 # 🔐 etools
 
-**etools** هو مشروع مفتوح المصدر يهدف إلى تقديم دليل عملي ومنظم لأوامر وأدوات اختبار الاختراق الخاصة بمرحلة **الوصول الأولي (Initial Access / Front Door)**.  
-يُعتبر etools مرجعًا سريعًا ومتكاملًا للمختبرين الأمنيين والمهتمين بالأمن السيبراني.
+**etools** is an open-source project that provides a structured guide for tools and commands used in **initial access (Front Door) pentesting**.  
+**etools** هو مشروع مفتوح المصدر يقدم دليلاً منظمًا للأوامر والأدوات الخاصة باختبار الاختراق في مرحلة الوصول الأولي.
 
 ---
 
-## 📂 محتويات المشروع
+## 📂 Project Structure / محتويات المشروع
 
-| المجلد | الوصف |
-|---------|--------|
-| `tools/` | أوامر وأدوات التعداد والمسح للخدمات (مثل Nmap, Hydra, Gobuster) |
-| `access/` | أوامر رفع الصلاحيات واستغلال الثغرات |
-| `nmap/` | نتائج أو سكربتات Nmap |
-
----
-
-## ⚡ هدف المشروع
-
-تجميع الأوامر والأدوات بشكل منظم، بهدف:
-- تسهيل الوصول إلى أوامر التعداد والتقييم الأمني
-- تسريع عمليات اختبار الاختراق في المرحلة الأولى
-- تقديم مرجع نظيف وقابل للتوسع للمحترفين والهواة
+| Folder / المجلد | Description / الوصف |
+|-----------------|--------------------|
+| `tools/`        | Enumeration and scanning commands / أوامر التعداد والمسح للخدمات |
+| `access/`       | Privilege escalation commands / أوامر رفع الصلاحيات |
+| `nmap/`         | Nmap scripts and results / سكربتات ونتائج Nmap |
 
 ---
 
-## 📝 الترخيص
+## ⚡ Purpose / هدف المشروع
 
-هذا المشروع متاح تحت رخصة [MIT License](LICENSE).  
-يمكن لأي شخص استخدامه أو تعديله أو توزيعه، بشرط الحفاظ على إشعارات حقوق النشر والترخيص.
+- Organize key pentest tools for initial access  
+- Facilitate faster and more structured testing  
+- Provide a clean reference for ethical hackers  
 
----
-
-## 📌 ملاحظات هامة
-
-🚫 جميع الأوامر والملفات الواردة هنا مخصصة للاستخدام في **اختبارات مصرح بها فقط**.  
-🚫 لا يتضمن المشروع أي ملفات كبيرة أو أنظمة تشغيل أو أدوات تنفيذية.
+- تنظيم أدوات اختبار الاختراق الخاصة بالوصول الأولي  
+- تسهيل وتسريع عمليات الاختبار بشكل منظم  
+- تقديم مرجع نظيف للمختبرين الأمنيين
 
 ---
 
-> المشروع قيد التطوير المستمر. سيتم إضافة المزيد من الأوامر والأدلة بشكل دوري.
+## 📝 License / الترخيص
+
+This project is licensed under the [MIT License](LICENSE).  
+يمكن لأي شخص استخدام المشروع أو تعديله أو توزيعه مع الحفاظ على إشعار حقوق النشر والترخيص.
+
+---
+
+## 📌 Notes / ملاحظات
+
+🚫 All commands and files are intended for **authorized testing only**.  
+🚫 جميع الأوامر والملفات الواردة هنا مخصصة للاستخدام في **اختبارات مصرح بها فقط**.
+
+🚫 No large files or operating systems are included.  
+🚫 لا يتم تضمين أي ملفات كبيرة أو أنظمة تشغيل.
+
+---
+
+> The project is under continuous development — contributions are welcome.  
+> المشروع قيد التطوير المستمر — نرحب بالمساهمات.
