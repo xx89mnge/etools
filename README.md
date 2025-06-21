@@ -41,8 +41,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 🚫 No large files or operating systems are included.  
 🚫 لا يتم تضمين أي ملفات كبيرة أو أنظمة تشغيل.
-
----
-
-> The project is under continuous development — contributions are welcome.  
-> المشروع قيد التطوير المستمر — نرحب بالمساهمات.
