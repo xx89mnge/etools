@@ -1,6 +1,16 @@
-# RDP (Port 3389)
-open PowerShell
-run winPEAS
-check task scheduler/services
-whoami /priv
-powershell -ep bypass -f winPEAS.ps1
+# RDP Privilege Escalation (Port 3389)
+
+## whoami /priv
+🔹 تحقق من الصلاحيات المتاحة للجلسة الحالية.
+
+## winPEAS
+🔹 شغل winPEAS لتحليل النظام وبيئة المستخدم بحثًا عن ثغرات.
+
+## check task scheduler / services
+🔹 استعرض المهام المجدولة والخدمات القابلة للتعديل.
+
+## PowerShell
+🔹 افتح PowerShell لتشغيل السكربتات أو تنفيذ أوامر متقدمة.
+
+## powershell -ep bypass -f winPEAS.ps1
+🔹 شغل winPEAS بدون قيود تنفيذ سكربتات PowerShell.

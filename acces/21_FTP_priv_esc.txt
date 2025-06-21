@@ -1,7 +1,22 @@
-# FTP (Port 21)
-check writeable dirs
-upload reverse shell
-use cron for execution
-sudo -l
-find / -perm -4000 2>/dev/null
-./linpeas.sh
+# FTP Privilege Escalation (Port 21)
+
+## ftp <target-ip>
+🔹 جرب الدخول باستخدام anonymous login أو مستخدم معروف.
+
+## nmap --script ftp-anon,ftp-bounce -p21 <target-ip>
+🔹 تحقق من إمكانية الوصول كـ anonymous وإمكانية relay.
+
+## upload reverse shell
+🔹 ارفع شل أو سكربت جاهز في dir قابل للتنفيذ.
+
+## استخدام كرون أو dir قابل للكتابة
+🔹 شغل السكربت باستخدام كرون أو ارفعه في dir يُنفذ تلقائيًا.
+
+## sudo -l
+🔹 استعرض أوامر sudo المتاحة بدون كلمة مرور.
+
+## find / -perm -4000 2>/dev/null
+🔹 عدّد ملفات SUID القابلة للاستغلال.
+
+## ./linpeas.sh
+🔹 تحليل شامل للثغرات وطرق الرفع.

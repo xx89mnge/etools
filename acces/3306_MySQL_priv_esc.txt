@@ -1,7 +1,22 @@
-# MySQL (Port 3306)
-check ~/.mysql_history
-use SELECT INTO OUTFILE
-look for reuse of creds
-sudo -l
-find / -perm -4000 2>/dev/null
-./linpeas.sh
+# MySQL Privilege Escalation (Port 3306)
+
+## mysql -u root -p
+🔹 الدخول إلى MySQL كـ root أو مستخدم آخر عند توفر البيانات.
+
+## check ~/.mysql_history
+🔹 استعرض الأوامر السابقة وقد تجد بيانات حساسة.
+
+## SELECT INTO OUTFILE
+🔹 اكتب ملفات على النظام مباشرة من MySQL (مثلاً شل أو سكربت).
+
+## reuse credentials
+🔹 جرب بيانات MySQL في خدمات أخرى (SSH, FTP).
+
+## sudo -l
+🔹 استعرض أوامر sudo المتاحة بدون كلمة مرور.
+
+## find / -perm -4000 2>/dev/null
+🔹 عدّد ملفات SUID.
+
+## ./linpeas.sh
+🔹 تحليل شامل للثغرات والفرص لرفع الصلاحيات.
