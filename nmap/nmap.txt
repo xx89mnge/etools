@@ -1,1 +1,0 @@
-sudo nmap -A -T4 -p- -sC -sV -Pn --script vuln <target-ip>
