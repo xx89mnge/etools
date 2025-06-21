@@ -1,4 +1,11 @@
-# HTTP Alt (Port 8080)
-whatweb http://<ip>:8080
-gobuster dir -u http://<ip>:8080 -w /usr/share/wordlists/dirb/common.txt
-curl -I http://<ip>:8080
+# HTTP Alternate Enumeration (Port 8080)
+
+## whatweb http://<target-ip>:8080
+🔹 استعرض التقنيات المستخدمة.
+
+## gobuster dir -u http://<target-ip>:8080 -w /usr/share/wordlists/dirb/common.txt
+🔹 اكتشف المسارات.
+
+## curl -I http://<target-ip>:8080
+🔹 استعرض الـ headers.
+

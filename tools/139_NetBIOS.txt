@@ -1,4 +1,10 @@
-# NetBIOS (Port 139)
-nmap -p139 --script nbstat.nse <ip>
-smbclient -L //<ip> -N
-enum4linux -a <ip>
+# NetBIOS Enumeration (Port 139)
+
+## nmap -p139 --script nbstat.nse <target-ip>
+🔹 عدّد أسماء الأجهزة والجروبات المشاركة على الشبكة.
+
+## smbclient -L //<target-ip> -N
+🔹 عدّد الـ shares المتاحة بدون كلمة مرور.
+
+## enum4linux -a <target-ip>
+🔹 عدّد المستخدمين، الـ shares، السياسات، وكل المعلومات المتاحة عبر SMB/NetBIOS.

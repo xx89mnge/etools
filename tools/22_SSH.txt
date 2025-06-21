@@ -1,4 +1,10 @@
-# SSH (Port 22)
-hydra -l root -P /usr/share/wordlists/rockyou.txt ssh://<ip>
-ssh <user>@<ip>
-nmap -p22 --script=ssh2-enum-algos,ssh-hostkey <ip>
+# SSH Enumeration (Port 22)
+
+## hydra -l root -P /usr/share/wordlists/rockyou.txt ssh://<target-ip>
+🔹 جرب brute-force على SSH.
+
+## ssh <user>@<target-ip>
+🔹 حاول الاتصال مباشرة لو عندك بيانات دخول.
+
+## nmap -p22 --script=ssh2-enum-algos,ssh-hostkey <target-ip>
+🔹 عدّد الخوارزميات والمفاتيح المستخدمة في SSH.

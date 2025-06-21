@@ -1,5 +1,14 @@
-# HTTP (Port 80)
-gobuster dir -u http://<ip> -w /usr/share/wordlists/dirb/common.txt
-nikto -h http://<ip>
-curl -I http://<ip>
-nmap -p80 --script=http-enum,http-title <ip>
+# HTTP Enumeration (Port 80)
+
+## gobuster dir -u http://<target-ip> -w /usr/share/wordlists/dirb/common.txt
+🔹 اكتشف المسارات المخفية.
+
+## nikto -h http://<target-ip>
+🔹 تحقق من الثغرات المعروفة.
+
+## curl -I http://<target-ip>
+🔹 استعرض الـ headers.
+
+## nmap -p80 --script=http-enum,http-title <target-ip>
+🔹 عدّد التطبيقات على السيرفر.
+

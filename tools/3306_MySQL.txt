@@ -1,4 +1,10 @@
-# MySQL (Port 3306)
-mysql -h <ip> -u root -p
-hydra -l root -P /usr/share/wordlists/rockyou.txt mysql://<ip>
-nmap -p3306 --script=mysql-info <ip>
+# MySQL Enumeration (Port 3306)
+
+## mysql -h <target-ip> -u root -p
+🔹 حاول الاتصال بـ MySQL.
+
+## hydra -l root -P /usr/share/wordlists/rockyou.txt mysql://<target-ip>
+🔹 جرب brute-force على MySQL.
+
+## nmap -p3306 --script=mysql-info <target-ip>
+🔹 استعرض معلومات MySQL.

@@ -1,4 +1,10 @@
-# HTTPS (Port 443)
-gobuster dir -u https://<ip> -w /usr/share/wordlists/dirb/common.txt -k
-nmap --script ssl-enum-ciphers -p 443 <ip>
-curl -vk https://<ip>
+# HTTPS Enumeration (Port 443)
+
+## gobuster dir -u https://<target-ip> -w /usr/share/wordlists/dirb/common.txt -k
+🔹 اكتشف المسارات المخفية.
+
+## nmap --script ssl-enum-ciphers -p 443 <target-ip>
+🔹 استعرض إعدادات SSL.
+
+## curl -vk https://<target-ip>
+🔹 استعرض الـ headers والمعلومات العامة.

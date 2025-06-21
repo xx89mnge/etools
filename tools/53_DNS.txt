@@ -1,4 +1,11 @@
-# DNS (Port 53)
-dig axfr @<ip> <target-domain>
-dnsenum <target-domain>
-nmap -p53 --script=dns-zone-transfer,dns-recursion <ip>
+# DNS Enumeration (Port 53)
+
+## dig axfr @<target-ip> <domain>
+🔹 جرب zone transfer.
+
+## dnsenum <domain>
+🔹 عدّد السجلات الفرعية.
+
+## nmap -p53 --script=dns-zone-transfer,dns-recursion <target-ip>
+🔹 تحقق من إعدادات الـ DNS.
+

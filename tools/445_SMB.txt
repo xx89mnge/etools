@@ -1,4 +1,10 @@
-# SMB (Port 445)
-smbmap -H <ip>
-smbclient //ip/share -U user
-nmap --script=smb-enum-shares.nse,smb-enum-users.nse -p445 <ip>
+# SMB Enumeration (Port 445)
+
+## smbmap -H <target-ip>
+🔹 عدّد الـ shares والصلاحيات.
+
+## smbclient //target-ip/share -U user
+🔹 اتصل بـ share محدد.
+
+## nmap --script=smb-enum-shares.nse,smb-enum-users.nse -p445 <target-ip>
+🔹 عدّد الـ shares والمستخدمين.
