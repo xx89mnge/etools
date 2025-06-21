@@ -1,8 +1,0 @@
-# Network Sniffing & Spoofing
-
-- **Bettercap** – هجمات MITM وتحليل متقدم  
-  https://github.com/bettercap/bettercap  
-- **Responder** – تسميم الشبكة وسرقة بيانات اعتماد  
-  https://github.com/lgandx/Responder  
-- **Wireshark** – تحليل الحزم  
-  https://www.wireshark.org

@@ -1,8 +1,0 @@
-# Web Enumeration
-
-- **Gobuster** – كشف مجلدات ودومينات فرعية  
-  https://github.com/OJ/gobuster  
-- **Dirsearch** – تخمين مسارات الويب  
-  https://github.com/maurosoria/dirsearch  
-- **Wfuzz** – أداة Fuzzing لاختبار استجابات الويب  
-  https://github.com/xmendez/wfuzz
