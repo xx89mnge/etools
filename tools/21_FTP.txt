@@ -1,0 +1,10 @@
+# FTP Enumeration (Port 21)
+
+## ftp <target-ip>
+🔹 جرب تسجيل الدخول كمجهول أو بمستخدم معروف.
+
+## hydra -l anonymous -P /usr/share/wordlists/rockyou.txt ftp://<target-ip>
+🔹 جرب brute-force على FTP.
+
+## nmap -p21 --script=ftp-anon,ftp-bounce <target-ip>
+🔹 تحقق من anonymous access والـ FTP bounce.

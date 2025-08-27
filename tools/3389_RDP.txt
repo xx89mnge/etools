@@ -1,0 +1,10 @@
+# RDP Enumeration (Port 3389)
+
+## ncrack -vv --user administrator -P rockyou.txt rdp://<target-ip>
+🔹 جرب brute-force على RDP.
+
+## xfreerdp /u:administrator /p:password /v:<target-ip>
+🔹 جرب الدخول يدويًا.
+
+## nmap -p3389 --script=rdp-enum-encryption <target-ip>
+🔹 استعرض إعدادات التشفير لـ RDP.
